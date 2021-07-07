@@ -1,0 +1,30 @@
+ /* Bootstrap */
+ @import 'bootstrap';
+
+ /* Custom */
+ @import 'variables';
+ @import 'mixins';
+ @import 'custom';
+
+ @font-face {
+    font-family: PT Sans;
+    src: url(assets/fonts/PT-Sans/PTSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Nexa;
+    src: url(assets/fonts/Nexa/Nexa_Bold.otf);
+  }
+
+  @font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto/Roboto-Regular.ttf);
+  }
+  
+  
+  
+
+
+html{
+    background-color: lightblue;
+}

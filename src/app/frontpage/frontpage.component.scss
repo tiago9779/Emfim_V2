@@ -1,0 +1,16 @@
+.background-frontpage{
+    height:100vh;
+    background: url("/assets/imgs/paisagemBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .layer-background-frontpage{
+        background-color: rgba(55, 72, 158,0.3);
+        height: 100vh;
+    }
+    h1{
+        position: absolute;
+        top:50%;
+        left:25%;
+    }
+}

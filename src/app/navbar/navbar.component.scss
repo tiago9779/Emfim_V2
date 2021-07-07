@@ -1,0 +1,21 @@
+.navbar * {
+    z-index: 2;
+}
+
+.navbar {
+    z-index: 1;
+    width: 100% !important;
+    background-color: rgba(74, 74, 73, 0.2);
+    .nav-link {
+        color: black;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        padding-right: 3.5rem !important;
+    }
+    .navbar-brand {
+        img {
+            width: 17rem;
+        }
+   
+    }
+}
